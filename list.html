@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Practice Jade and Gulp</title>
+    <link rel="stylesheet" href="css/all.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"><a href="#" class="navbar-brand">Navbar</a>
+      <button type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+      <div id="navbarSupportContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+              <li class="nav-item"></li><a href="index.html" class="nav-link">範例頁面</a>
+              <li class="nav-item"></li><a href="list.html" class="nav-link active">高雄旅遊網靜態頁面</a>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input type="search" placeholder="Search" aria-label="Search" class="form-control mr-sm-2"/>
+          <button type="submit" class="btn btn-outline-success my-2 my-sm-0">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="card-columns">
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=705&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">高雄願景館</h5>
+            <p class="card-text">高雄願景館的前身是日治時期興建的高雄市舊火車站，外觀是”和洋混合式建築”氣勢雄偉，內部則為西式的玄關及大廳。2002年為了配合鐵路、捷運、高鐵的三鐵共構，這棟老火車站建築物遷移到附近的空地上，並由市府規劃，以&quot;數位博物館&quot;的型式，其中歷史迴廊對於鐵道文化及往日風貌有一系列回顧，讓遊客可以重溫老車站的過往風華，而3D虛擬互動區則讓參觀者以虛擬實境的方式飛越高雄的重要景點並同時見證高雄的發展歷史。願景館是認識高雄過去與未來的最佳場所，而願景橋、鐵路文化棧道、風的祝福廣場…等公共藝術區也是遊客們最愛駐足與拍照留念的美麗景點。</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=1846&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">中都愛河濕地公園</h5>
+            <p class="card-text">串起高雄城市生態綠廊的中都愛河濕地公園座落於愛河南側的十全與九如路之間，全長約2.5公里，佔地達七千餘平方公尺。為了打造與市民生活融合的「水岸花香的永續生態城市」，愛河濕地公園以生態工法構築邊坡，重現早期溼地豐富生態棲息環境。園區設置原木建築為遊客解說中心，另有木造涼亭、吊橋、潮汐親水平台以及漂流木為設計主軸的燈具座椅等設施，質樸中深具原野氣息，而仿自然的複層林相植栽也使市區重現豐富林相。悠遊於綠油油曲折玲瓏的河岸可見各種水鳥飛翔駐留、紅樹林和濕地更使愛河重現盎然生機。由於中都濕地公園打造出兼具自然生態、教育解說及民眾休憩等眾多功能，又完整呈現愛河沿岸多樣性的風貌，2012年榮獲「全球卓越建設獎」殊榮，也因此有高雄都會桃花源的美稱。</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=979&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">檨仔林埤濕地公園</h5>
+            <p class="card-text">狹長型的檨仔林埤濕地公園位於高雄市三民區，鼎金後路與鼎金系統交流道之間，是高雄市近年來整治成功，兼具滯洪、防洪、休閒教育與生態功能的埤塘濕地公園之一。園區北側有「生態密林區」，茂密的原生檨仔樹林如同都市之肺，可以阻隔、緩衝北側高速公路對生態與環境造成的干擾; 「生態維持區」則將原有地形疏浚深化，形成生態浮島與水域栽培育區，遍植野薑花、慈菇、香蒲等水生植物，利用生態池水體自淨機制淨化水質。清新的環境與自然的綠意，吸引水鳥與生物棲息，腳踏車道與林蔭綠意提供遊人休憩放鬆的清淨角落，也是高雄市美麗的後花園。</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=984&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">玉皇宮(天公廟)</h5>
+            <p class="card-text">位於三民區河北路的玉皇宮(又稱天公廟)創建於1920年，主祀玉皇大帝。原僅為鼓山區許姓私人家祀，由於二次大戰期間鄰里間災情慘重，唯許家安然無恙，民眾口耳相傳天公保佑，於是信眾大增，1961年至現址興建。玉皇宮外觀金碧輝煌、巍峨宏偉，凌宵大殿也全部貼以金飾，襯托神明的法相莊嚴。尤其每逢大年初一子時及初九天公生，民眾相偕頂禮膜拜保佑一年平安順遂，為高雄地區香火鼎盛的道教聖地。</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=988&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">義永寺</h5>
+            <p class="card-text">位於三民區的義永寺分香自大崗山的超峰寺，自民國42年創建已有六十多年歷史，外觀為台灣少見的泰式佛教建築，古樸素雅中自有其雄偉宏大的氣質。義永寺佔地廣大，三千餘坪的寺地草木蓊鬱、佛地清幽，五樓高的圓塔型主寺供奉巨型釋迦牟尼佛金身，法相莊嚴，左右護法為關公及護法神韋陀。寺院中尚有高46公尺的觀世音菩薩及守衛的白象，莊嚴幽靜的環境及歷屆法師蓽路藍縷的開創精神頗受信眾的愛戴。</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=991&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">金獅湖道德院</h5>
+            <p class="card-text">金獅湖道德院供奉道家的開山始祖--老子(太上道祖)的道德院為華南式的宮殿建築，依獅山面湖而建，更顯其毓秀不凡的氣質。據聞道德院的後殿樓下凹處為「獅喉」寶穴所在地，道德院將其如「聚寶盆」般固守於殿宇之內，供信徒膜拜清修。而每年農曆 2月太上道祖誕辰，廟方皆會辦理規模盛大的燈會，慶典期間張燈結彩、與湖光山色倒映成趣，成為金獅湖最美的風景。</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=3289&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">褒忠義民廟</h5>
+            <p class="card-text">高雄褒忠義民廟是信士林讓才由新竹縣新埔枋寮義民廟分香而來，原位於火車站前的南華路，後因香火鼎盛、信眾日多，而且都市計劃將闢為道路，於是民國六十二年另擇褒忠街現址，巍峨雙塔護持挑高的廟殿，左右對稱、莊嚴華麗。屋頂以剪黏、交趾陶來裝飾，頗有可觀。廟內供奉義民爺，每年的春秋祭典是客家族群對當年捍衛家鄉而犧牲的義民們最誠摯的景仰和懷念，而農曆七月的神豬大賽及中元普渡更是一年一度的盛事，也是客家精神凝聚的表徵。</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=995&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">愛河之心</h5>
+            <p class="card-text">若要找尋高雄市區最浪漫璀璨的夜景，位於同盟路與博愛路交叉口的愛河之心?對是不二選擇。佔地1.4平方公里的愛河之心是二個人工蓄洪湖構成，較淺的東湖是生態池，打造的仿自然環境供魚蝦生物棲息生長，西湖因水位較深，除了滯洪及生態功能外還供愛河遊船行駛停靠，兩湖之間由空橋連繫，形成美麗的心型。每當夜幕低垂，彩色燈光投影在湖畔水景噴泉及橋面，白色縷空護欄也映照出朵朵美麗心花，猶如愛河上最閃爍燦爛的珠寶，浪漫情調總是吸引遊客情侶在湖畔漫遊、不捨離去。愛河之心交通便捷，除公路捷運外，尚有水路遊船及單車步道，是體會夜高雄之美的最佳去處。</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=206&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">中都唐榮磚窯廠</h5>
+            <p class="card-text">中都唐榮磚窯廠曾以生產高級耐火磚聞名，前身為創建於1899年的鮫島煉瓦工場。1985年，不敵時代與環保等因素要拆除的舊廠房，由於保留了二座高聳的煙囪、八卦窯、三座倒焰窯、實驗窯、隧道窯、日治時期磚造事務所等設備，無異是一座活生生的磚窯歷史博物館，不但見證了百年來工業經濟發展的軌跡，紅磚建築的結構、質地、磚飾也提供建築美學上的價值與範例，因此在2003年後陸續列為市定及國定古蹟，也是高雄第一座古蹟文化園區。走在佔地2.27公頃的廣大園區，愛河的潾潾波光映照著磚窯廠的紅磚綠樹，漫步於台灣保存最完整的瓦窯廠體驗歲月悠悠與時代興衰，實為身心靈一大享受。</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=1075&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">木柵教會</h5>
+            <p class="card-text">內門的木柵地區是台灣很早就接受基督教洗禮的平埔族聚落，木柵教會於清朝同治年間(1868年)奠基，原為土角厝，後在原址改建，是全台第三古老的基督教堂。線條簡樸的純白教堂聳立於藍天峻嶺之間，神聖耀眼而莊嚴，教堂後方尚有百年古井，並附設平埔族文物館，展示著百年來教友與族人們使用的器物與照片。在教會中參訪，除了體會平和寧靜的宗教力量，也可來趟百年西拉雅歷史文化之旅。</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=203&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">新客家文物園區</h5>
+            <p class="card-text">位於三民一、二號公園的「新客家文化園區」緊鄰近愛河畔愛河之心、光之塔、客家文物館等景點，為全台灣首座都會型客家文化園區。園區設置1.05公里的花香步道、紅磚瓦屋、半月池、圓型的客家土樓建築、菸葉造型屋頂的演藝廳…處處可見客家風情與意象巧思。文物館內有常設的客家文物展示廳、兒童體驗廳、DIY教室及視廳圖館，展演廳則有常態性的客家藝文表演，提供了認識客家文化的最佳平台與文化交流。圓樓餐廳的客家農特產品及特色餐飲也使遊客能盡情享受美食及購物樂趣。開闊廣大的園區與多元的活動，是體驗傳統客家文化與半日遊的?佳樂活景點。</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=744&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">金獅湖園區</h5>
+            <p class="card-text">&lt;金獅湖&gt;金獅湖原名大埤，因後有獅山、鉤狀湖面狀似伏獅而得名，水域面積約11公頃，是愛河源頭的儲水埤塘之一，具有防洪調節水量的功能。湖畔有金色的巨大石獅及環湖迴廊，綠蔭濃密、湖中蓮花點點，不論清晨、黃昏，佇立其間聆聽蟲嗚鳥唱，俯視湖光倒映的瑰麗晨曦夕照，都令人流連忘返，更有新設的光橋入夜後如長虹懸掛南北兩岸，景色迷人。由於湖畔環繞著獅山公園、蝴蝶自然生態館、道德院及以保安宮，多元的景點很適合闔家遊玩賞景。&lt;金獅湖蝴蝶園區&gt;蝴蝶園位於金獅湖風景區東側，戶外種植花草水池吸引野生蝴蝶停駐，二個大型展館共佔地1350坪，內部植滿了蝴蝶食草與蜜源植物、潺潺流水穿越小橋，訪客可沿著木棧道蜿蜒深入群蝶飛舞的靜謐仙境之中，也可在觀察箱近距離觀察成蛹化蝶的生態。有鑑於都市中蝴蝶的自然生態環境已遭嚴重破壞，蝴蝶園如同小伊甸園般保存了蝴蝶所需的棲地生態，更肩負起蝴蝶保育的功能，多年來復育不少保育類蝴</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=24&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">彪琥台灣鞋故事館觀光工廠</h5>
+            <p class="card-text">2009年彪琥臺灣鞋故事館成立，是臺灣唯一通過觀光工廠評鑑之製鞋廠，也是少數完整開放製鞋過程供參觀的鞋廠，在此可以親眼見證一雙鞋子從無到有、師傅們堅持手感製鞋的各項過程。彪琥堅持MIT精神，將臺灣曾經興盛一時的製鞋產業用心守護，積極投入產業轉型提昇技術，保留在地文化，讓遊客了解鞋的歷史演進、製鞋產業的發展史及忠實呈現製鞋全製程。</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=2677&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">國定古蹟-竹仔門電廠</h5>
+            <p class="card-text">竹仔門發電廠目前正式名稱為「高屏發電廠竹仔門分廠」，是日據時代為提供南台灣電力而興建，利用荖濃溪水力發電的川流式電廠。建於1908年的竹仔門電廠花木扶疏、綠樹蓊鬱，仿巴洛克式的三層磚造樓房去除了繁複的花飾、留下簡捷優雅的線條，弧形山牆、成列的拱形窗戶、牛眼窗，使電廠少了冰冷的工業風格而多了古典溫潤，在美濃紅磚瓦厝的四合院落中更顯得獨具特色。電廠內的發電設備當年均由德國進口，經過百年時光仍能運轉，猶如活古董般的發電機見證了百年來台灣的發電史，也因此竹仔門電廠列為台灣第一座「產業古蹟」，2003年更成為國定古蹟。竹仔門電廠的電力曾為南台灣現代化奠定基礎，發電後的排水也為高屏農業灌溉出富裕繁盛，可在電廠上班日安排參觀，欣賞百年電廠環境及建築之美並實地了解水力發電，深具教育與觀光意義。</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=999&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">佛光緣美術館 (總館)</h5>
+            <p class="card-text">佛光緣美術館緣於一九九四年為籌措佛光大學設校所需經費而做的義賣，這個因緣是來自於佛光大學，因此以「佛光緣」為名。美術館成立的目的是為了讓信徒遊客藉由認識佛教文物，進而瞭解佛教的具體內涵，欣賞佛教藝術之美，至今已在全國及世界各地設立23所分館，而總館位於高雄市大樹區佛光山大雄寶殿後方，面積有六百餘坪。館內除常設展「雲水三千」為創辦人星雲法師弘法五十餘年以來的影像，另有典藏及常態展示區及美術教室，將佛教與藝文結合，為民眾提供一個心靈開放的空間，參與互動的文化藝術天地，提昇大眾生活品質、內涵。</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=1004&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">市定古蹟-竹寮取水站</h5>
+            <p class="card-text">1913年完工啟用的竹寮取水站位於大樹區下淡水溪(今之高屏溪)畔，日據時代沿用至今已有近百年之久，是台灣水道設施的重要歷史遺產，至今仍在運轉中。主體建築為日治時期的洋風建築，紅磚砌牆、弧型立面與搶眼的綠色窗欞，機房與修護廠為大跨度木造構架可以置放現代化抽水機具；建築物樣式受二十世紀初歐洲現代設計的影響，獨具特色。取水站除為大樹區農業帶來豐沛的灌概水源，更是供應高雄地區最早期自來水系統的心臟，是高雄都市發展史中深具革命性與普世性的建築工程，更在1998年被內政部列為三級古蹟。</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=1014&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">姑婆寮莊家古厝</h5>
+            <p class="card-text">隱身於大樹區姑婆寮山頂的荔枝林間，莊家古厝卻讓人眼睛一亮，綠林中紅牆掩映，透出溫潤古樸、保存良好的百年古老民居，仿佛乘著時光機器又回到過往。莊家古厝是標準傳統的「七包三」格局的四合院，即七間廳堂及三進門房，外牆設計崁入雕刻的竹節與書卷，象徵耕讀人家的高風亮節與勤讀不輟，地面的入字型紅磚則代表歡迎賓客光臨，屋頂及牆面也有細緻的剪黏壁飾，全以動、植物為題材，顯見主人生活於山林中尊自然的心志。雖無雕樑畫棟但民宅的質樸溫暖卻處處讓人讚嘆和驚喜，想欣賞歷史建築的單純幽雅，莊家古厝?對讓人流連忘返。</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=1022&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">飯田豐二紀念碑(二級古蹟)</h5>
+            <p class="card-text">飯田豐二是日本靜岡縣人，在日治時期負責建設屏東線鐵路的工程師，由於在建造下淡水溪鐵橋(今日之舊鐵橋)時施工困難積勞成疾，因而感染瘧疾病逝，得年40歲。死後由好友小山三郎等人集資建紀念碑一座，並埋葬其遺墨在九曲堂火車站北100公尺處。1913年建成的舊鐵橋在經過百年悠悠歲月後仍佇立滾滾高屏溪上，與飯田豐二紀念碑共同見證舊鐵橋的滄桑史。</p>
+          </div>
+        </div>
+        <div class="card"><img src="http://khh.travel/FileArtPic.ashx?id=1028&amp;w=1280&amp;h=960" alt="Attraction" class="card-img-top"/>
+          <div class="card-body">
+            <h5 class="card-title">佛光山</h5>
+            <p class="card-text">佛光山寺位於大樹區北端，由星雲法師於民國56年帶領弟子披荊斬棘一磚一瓦所建，佔地五十餘公頃，與2011年新建的佛陀紀念館綿延於高屏溪右岸，大大小小的佛殿依山勢羅列，莊嚴雄渾、氣勢宏偉，是台灣重要的佛教勝地。佛光山有四座殿堂式主建築及上萬尊的神像，另有教育、醫療、美術館等等機構，是以推動人間佛教、建設人間淨土為宗旨，綜合了弘法、教育、慈善、文化、朝聖等並行發展之現代道場。佛光山提供信眾參拜及佛學清修教育等多元環境，同時也是遊人朝聖踏青的熱門景點，尤以夕陽西下時大佛與宮殿式寺廟沐浴在暮靄霞光中更顯莊嚴恢宏、見之忘卻塵世煩憂。農曆春節到元宵期間，滿山掛滿花燈，入夜後更是光華燦爛、美不勝收。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
