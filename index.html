@@ -4,12 +4,40 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Document</title>
+    <title>Practice Jade and Gulp</title>
     <link rel="stylesheet" href="css/all.css"/>
-    <script src="js/all.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
   </head>
   <body>
-    <h1>Hello </h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos maxime recusandae sunt illo ab tempora porro, eveniet, odit fugiat autem perspiciatis iure, est quod ex distinctio? Ut enim voluptatem dolor.</p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"><a href="#" class="navbar-brand">Navbar</a>
+      <button type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+      <div id="navbarSupportContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link disabled">Disabled</a></li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input type="search" placeholder="Search" aria-label="Search" class="form-control mr-sm-2"/>
+          <button type="submit" class="btn btn-outline-success my-2 my-sm-0">Search</button>
+        </form>
+      </div>
+    </nav>
+    <h1>Content</h1>
+    <ul>
+      <li><a href="#">link</a></li>
+      <li><a href="#">link</a></li>
+      <li><a href="#">link</a></li>
+    </ul>
+    <h3><a href="#"><span>連結</span></a></h3>
+    <hr/>
+    <div class="container">
+      <form action="">
+        <label for="email">請輸入Email</label>
+        <input id="email" type="text" class="form-control input-sm"/>
+      </form>
+    </div>
+    <script src="js/all.js"></script>
   </body>
 </html>
