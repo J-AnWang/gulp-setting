@@ -40,6 +40,15 @@ gulp.task('copyHTML', () => {
 gulp.task('jade', function () {
     gulp.src('./source/**/*.jade')
         .pipe($.plumber())
+        .pipe($.data(() => {
+            var menu = require('./source/data/menu.json');
+            var gaoxiongData = require('./source/data/gaoxiong.json');
+            var source = {
+                'gaoxiongData': gaoxiongData,
+                'menu': menu
+            };
+            return source
+        }))
         .pipe($.jade({
             pretty: true
         }))
