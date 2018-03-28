@@ -1,0 +1,14 @@
+extend layout.jade
+
+block navbar
+    include partial/navbar.jade
+
+block content
+    .card-columns
+        each item in gaoxiongData.result.records
+            .card
+                img.card-img-top(src='#{item.Picture1}', alt='Attraction')
+                .card-body
+                    h5.card-title #{item.Name}
+                    p.card-text
+                        | #{item.Description}

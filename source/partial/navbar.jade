@@ -4,16 +4,20 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
                 span.navbar-toggler-icon
             #navbarSupportContent.collapse.navbar-collapse
                 ul.navbar-nav.mr-auto
-                    li.nav-item.active
-                        a.nav-link(href='#')
-                            | Home 
-                            span.sr-only (current)
-                    li.nav-item
-                        a.nav-link(href='#') Features
-                    li.nav-item
-                        a.nav-link(href='#') Pricing
-                    li.nav-item
-                        a.nav-link.disabled(href='#') Disabled
+                    each item in menu.list
+                        li.nav-item.active
+                            a.nav-link(href='#{item.url}')
+                                | #{item.name}
+                    //- li.nav-item.active
+                    //-     a.nav-link(href='#')
+                    //-         | Home 
+                    //-         span.sr-only (current)
+                    //- li.nav-item
+                    //-     a.nav-link(href='#') Features
+                    //- li.nav-item
+                    //-     a.nav-link(href='#') Pricing
+                    //- li.nav-item
+                    //-     a.nav-link.disabled(href='#') Disabled
                 form.form-inline.my-2.my-lg-0
                     input.form-control.mr-sm-2(type='search', placeholder='Search', aria-label='Search')
                     button.btn.btn-outline-success.my-2.my-sm-0(type='submit') Search
