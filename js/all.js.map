@@ -1,0 +1,1 @@
+{"version":3,"sources":["all.js","all2.js"],"names":["func","func2"],"mappings":"aAAA,IAAIA,KAAO,aAEVA,OCFD,IAAIC,MAAQ,aAIZA","file":"all.js","sourcesContent":["let func = () => {\n    console.log('Yo, bro.');\n}\n\nfunc();","let func2 = () => {\n    console.log('I\\'m func 2');\n};\n\nfunc2();"]}
