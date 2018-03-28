@@ -1,34 +1,10 @@
-<!DOCTYPE html>
-html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title Practice Jade and Gulp
+extend layout.jade
 
-        link(rel="stylesheet", href="css/all.css")
-        link(href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", rel="stylesheet", integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm", crossorigin="anonymous")
-    body
-        nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
-            a.navbar-brand(href='#') Navbar
-            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
-                span.navbar-toggler-icon
-            #navbarSupportContent.collapse.navbar-collapse
-                ul.navbar-nav.mr-auto
-                    li.nav-item.active
-                        a.nav-link(href='#')
-                            | Home 
-                            span.sr-only (current)
-                    li.nav-item
-                        a.nav-link(href='#') Features
-                    li.nav-item
-                        a.nav-link(href='#') Pricing
-                    li.nav-item
-                        a.nav-link.disabled(href='#') Disabled
-                form.form-inline.my-2.my-lg-0
-                    input.form-control.mr-sm-2(type='search', placeholder='Search', aria-label='Search')
-                    button.btn.btn-outline-success.my-2.my-sm-0(type='submit') Search
-        h1 Content
+block navbar
+    include partial/navbar.jade
+
+block content
+    h1 Content
 
         ul
             li
